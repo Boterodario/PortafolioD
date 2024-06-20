@@ -174,12 +174,14 @@ span {
   grid-template-columns: repeat(auto-fit, minmax(290px, auto));
   gap: 15px;
   width: 90%;
+  padding: 3%;
   margin: 0 auto;
 }
 
 .briefcase-grid img {
   width: 100%;
   border-radius: 10px;
+  
   transition: transform 0.2s ease;
 }
 
@@ -236,6 +238,16 @@ padding-bottom: 60px;
   gap: 50px;
 }
 
+
+.tools img{
+  transition: transform 0.2s ease;
+}
+
+.tools img:hover{
+  
+  transform: scale(1.1);
+}
+
 /* TOOLTIP */
 
 
@@ -251,6 +263,19 @@ padding-bottom: 60px;
   opacity: 0;
   transform: translate(0px, -100px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+
+.knowledge img{
+
+  transition: transform 0.2s ease;
+
+}
+
+.knowledge img:hover{
+
+ 
+    transform: scale(1.1);
 
 }
 
